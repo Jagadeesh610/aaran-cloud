@@ -33,6 +33,7 @@ class BlogController extends Controller
                     'image' =>URL(\Illuminate\Support\Facades\Storage::url('images/'.$post->image)),
                     'user_id'=>$post->user_id,
                     'user_name'=>$post->user_name,
+                    'created_at'=>$post->created_at,
                 ];
             });
     }
