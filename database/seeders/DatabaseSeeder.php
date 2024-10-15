@@ -9,6 +9,7 @@ use Aaran\Master\Database\Seeders\S202_ContactSeeder;
 use Aaran\Master\Database\Seeders\S203_ProductSeeder;
 use Aaran\Master\Database\Seeders\S204_OrderSeeder;
 use Aaran\Master\Database\Seeders\S205_StyleSeeder;
+use App\Models\UserDetails;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -30,5 +31,7 @@ class DatabaseSeeder extends Seeder
         S203_ProductSeeder::run();
         S204_OrderSeeder::run();
         S205_StyleSeeder::run();
+
+        UserDetailsSeeder::run();
     }
 }
