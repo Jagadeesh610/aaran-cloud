@@ -8,7 +8,7 @@
             <x-assets.logo.cxlogo :icon="'dark'" class="h-10 w-auto block"/>
             <span class="font-bold text-2xl sm:text-3xl tracking-widest">Codexsun</span>
         </a>
-{{-- {{config('app.name')}} --}}
+        {{-- {{config('app.name')}} --}}
         <button
             class="focus:outline-none focus:bg-gray-700 hover:bg-gray-800  rounded-md group"
             @click="sidebarOpen = false"
@@ -50,6 +50,7 @@
             @if(Aaran\Aadmin\Src\Customise::hasTaskManager())
                 <x-menu.sub.task/>
             @endif
+            <x-menu.sub.admin/>
 
 
             <x-menu.sub.logout/>
