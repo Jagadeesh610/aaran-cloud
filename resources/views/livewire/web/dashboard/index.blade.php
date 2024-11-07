@@ -4,20 +4,7 @@
         <!-- Col 1 -->
         <div class=" bg-[#F8F8FF] gap-10 flex sm:flex-row flex-col tracking-wider rounded-lg">
             <x-web.dashboard.greetings/>
-            @if(session()->get('role_id')==1|| session()->get('role_id')==2|| session()->get('role_id')==3 )
-                {{--                @if(Aaran\Aadmin\Src\DbMigration::hasEntry())--}}
-                <x-web.dashboard.sales :transactions="$transactions"/>
-                <x-web.dashboard.cards :transactions="$transactions"/>
 
-                {{--                @endif--}}
-            @endif
-            {{--            <x-web.dashboard.cards/>--}}
-        </div>
-        <!-- Col 2 -->
-        <div class=" bg-[#F8F8FF] gap-10 flex sm:flex-row flex-col tracking-wider rounded-lg ">
-            <x-web.dashboard.customer :contacts="$contacts"/>
-            <x-web.dashboard.entries :entries="$entries"/>
-            {{--            <x-web.dashboard.statistics/>--}}
             <div class="sm:w-5/12 w-auto bg-white  rounded-lg flex-col flex h-[28rem] gap-y-5 hover:shadow-md gap-y">
 
 
@@ -76,7 +63,7 @@
                                 class="w-full h-auto  flex gap-x-2 bg-gray-50 hover:bg-slate-100 rounded-md animate__animated wow animate__backInRight"
                                 data-wow-duration="3s">
                                 <div class="h-24 w-32">
-                                    <img src="../../../../images/home/bg_1.webp"
+                                    <img src="../../../../images/home/api_1.jpg"
                                          class="w-full h-full rounded-l-md" alt="">
                                 </div>
                                 <div class="w-4/6 flex-col flex py-1 ">
@@ -105,7 +92,6 @@
                     @endforelse
                 </div>
             </div>
-
         </div>
     </div>
 </div>
