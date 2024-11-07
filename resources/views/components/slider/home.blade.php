@@ -69,23 +69,22 @@
 
                         <x-slider.home-slider
                             :bg_image="'/../../../images/home/api_1.jpg'"
-                            title="Best Online GST Billing Software in India"
-                            slogan="Create, manage & track invoices, e-invoices, and eWay bills, 100% safe, reliable, and secure..."
+                            title="Where your code meets endless possibilities"
+                            slogan="The unseen force powering your integration..."
 
                         />
 
                         <x-slider.home-slider
                             :bg_image="'/../../../images/home/api_2.jpg'"
-                            title="Only GST Billing Software You Need For Your Business"
-                            slogan="Streamline your invoicing with GST billing software, effortlessly create GST-compliant invoices in minutes..."
+                            title="Crafted for experts who value efficiency"
+                            slogan="Why limit your app? Break the boundaries now..."
                         />
 
 
                         <x-slider.home-slider
                             :bg_image="'/../../../images/home/api_3.jpg'"
-                            title="Book keeping and Transaction Recording"
-                            slogan="Categorized revenue, expenses, assets, liabilities, and other options.
-                            Further, reviewed in detail and adjusted according to the entries to ensure accuracy..."
+                            title="Faster integrations less downtime guaranteed"
+                            slogan="Reliable connections without the complexity..."
                             text_length="28"
                         />
 
